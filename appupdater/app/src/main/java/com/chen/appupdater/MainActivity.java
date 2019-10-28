@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toast.makeText(MainActivity.this,"hello world",Toast.LENGTH_SHORT).show();
         mBtnUpdater=(Button)findViewById(R.id.id_btn_updater);
         mBtnUpdater.setOnClickListener(new View.OnClickListener() {
             @Override
